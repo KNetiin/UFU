@@ -1,0 +1,253 @@
+public enum StatusMatriculaDisciplina {
+    CURSANDO, TRANCADA, REPROVADA, APROVADA;    
+}
+
+----------------------------------------------------------------
+
+public enum Semestre {
+    PRIMEIRO, SEGUNDO;
+}
+
+-----------------------------------------------------------------
+
+import java.util.*;
+public class Professor {
+    String nome;
+    String departamento;
+    ArrayList<OfertaTurma> turmasOfertadas;
+    
+    Professor (String nome, String d) {
+        this.nome = nome;
+        departamento = d;
+    }    
+    
+    void ficaAlocadoTurma (OfertaTurma o) {
+        turmasOfertadas.add(o);
+        o.vinculaProfessor(this);
+    }
+}
+
+---------------------------------------------------------
+
+import java.util.*;
+public class OfertaTurma {
+    int ano;
+    Semestre semestre;
+    Disciplina disciplina;
+    Vector<MatriculaAluno> alunosMatriculados;
+    Professor  professor;
+    
+    OfertaTurma (int ano, Semestre s, Disciplina d) {
+        this.ano = ano;
+        this.semestre = s;
+        this.disciplina = d; 
+        alunosMatriculados = new Vector<MatriculaAluno>();
+    }
+    void matriculaAluno (MatriculaAluno m) {
+        alunosMatriculados.add(m);
+    }
+    
+    void cancelaMatricula (Aluno a) {
+        alunosMatriculados.remove(a);
+    }
+    
+    void vinculaProfessor (Professor p) {
+        professor = p;
+        professor.ficaAlocadoTurma(this);
+    }    
+
+    String nomeDisciplina() {
+        return this.disciplina.getNome();
+    }
+}
+----------------------------------------------------------------
+
+public class MatriculaAluno {
+    Aluno aluno;
+    OfertaTurma oferta;
+    StatusMatriculaDisciplina  status;
+    float nota;
+    
+    MatriculaAluno (Aluno a, OfertaTurma o) {
+        aluno = a;
+        oferta = o;
+        status = StatusMatriculaDisciplina.CURSANDO;
+    }
+    
+    Aluno alunoMatriculado () {
+        return aluno;
+    }
+    
+    OfertaTurma turmaMatriculada() {
+        return oferta;
+    }
+    
+    void registraNota (float n) {
+        this.nota = n;
+        if (this.nota >= 60)
+            status = StatusMatriculaDisciplina.APROVADA;
+        else
+            status = StatusMatriculaDisciplina.REPROVADA;            
+    }
+    
+    void trancaMatricula () {
+        this.status = StatusMatriculaDisciplina.TRANCADA;
+    }    
+    
+    boolean aprovado (Disciplina d) {
+        return d.getNome().equals(oferta.nomeDisciplina()) && status == StatusMatriculaDisciplina.APROVADA;
+    }
+}
+
+----------------------------------------------------------------------------------------------------------------------------
+
+import java.util.*;
+public class Historico {
+    ArrayList<MatriculaAluno> disciplinasMatriculadas;
+    Aluno aluno;
+     
+    Historico (Aluno a) {
+         aluno = a;
+         disciplinasMatriculadas = new ArrayList<MatriculaAluno>();
+    }
+    
+    void matriculaDisciplina (OfertaTurma oferta) {
+        MatriculaAluno m = new MatriculaAluno (aluno, oferta);
+         this.disciplinasMatriculadas.add(m);
+         oferta.matriculaAluno(m);
+    }
+     
+    boolean constaAprovacao (Disciplina d) {
+         for (MatriculaAluno m: disciplinasMatriculadas) {
+             if (m.aprovado(d))
+                 return true;
+         }
+         return false;
+    }
+    
+    void registraResultado (Disciplina d, int nota) {
+        for (MatriculaAluno m: disciplinasMatriculadas) {
+            if (m.oferta.nomeDisciplina().equals(d.nome) && m.status == StatusMatriculaDisciplina.CURSANDO)
+                m.registraNota(nota);
+        }
+    } 
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+import java.util.Vector;
+
+public class GradeCurricular {
+    Vector<Disciplina> disciplinas = new Vector<Disciplina>();
+    
+    void incluiDisciplina (Disciplina d) {
+        disciplinas.add(d);
+    }
+    
+    void removeDisciplina (Disciplina d) {
+        disciplinas.remove(d);
+    }
+
+    int nroDisciplinas() {
+        return disciplinas.size();
+    }
+}
+--------------------------------------------------------------------------------------------------------------------------
+import java.util.*;
+public class Disciplina {
+    String nome;
+    ArrayList<Disciplina> prerequisitos;
+    
+    Disciplina (String nome) {
+        this.nome = nome;
+    }
+    
+    void criaPrerequisito (Disciplina d) {
+        prerequisitos.add(d);
+    }
+
+    String getNome() {
+        return nome;
+    }
+}
+-------------------------------------------------------------------------------------------------------------------------
+public class Aluno {
+    String nome;
+    GradeCurricular grade;
+    Historico historico;
+    
+    Aluno (String n, GradeCurricular g) {
+        nome = n;
+        grade = g;
+        historico = new Historico(this);
+    }
+    
+    boolean verificaSeFormou () {
+        // for (int i = 0; i < grade.nroDisciplinas(); i++) {
+        for (Disciplina d:   grade.disciplinas) {
+            if (! historico.constaAprovacao(d))
+                return false;
+        }
+        return true;
+    }
+}
+------------------------------------------------------------------------------------------------------------------------------------------
+public class ControleAcademico {
+
+    public static void main(String[] args) {
+        Disciplina pp = new Disciplina("PP");
+        Disciplina aed1 = new Disciplina("AED1");
+        Disciplina poo1 = new Disciplina("POO1");
+        GradeCurricular grade = new GradeCurricular();
+        grade.incluiDisciplina(pp);
+        //pp.incluiNaGrade(grade); Seria um bad smell: feature envy
+        grade.incluiDisciplina(aed1);
+        grade.incluiDisciplina(poo1);
+        Professor profMarcelo = new Professor("Marcelo", "FACOM");
+        Aluno alunoSeverino = new Aluno("Severino", grade);
+        
+        System.out.println("O aluno " + alunoSeverino.nome + " esta' " + (alunoSeverino.verificaSeFormou() ? "formado!" : "ainda cursando"));
+        
+        OfertaTurma ofertaPP = new OfertaTurma(2015, Semestre.SEGUNDO, pp);
+        alunoSeverino.historico.matriculaDisciplina(ofertaPP);
+        System.out.println("O aluno " + alunoSeverino.nome + " esta' " + (alunoSeverino.verificaSeFormou() ? "formado!" : "ainda cursando"));
+
+        OfertaTurma ofertaAED1 = new OfertaTurma(2016, Semestre.PRIMEIRO, aed1);
+        alunoSeverino.historico.matriculaDisciplina(ofertaAED1);
+
+        OfertaTurma ofertaPOO1 = new OfertaTurma(2016, Semestre.PRIMEIRO, poo1);
+        alunoSeverino.historico.matriculaDisciplina(ofertaPOO1);
+        
+        System.out.println("O aluno " + alunoSeverino.nome + " esta' " + (alunoSeverino.verificaSeFormou() ? "formado!" : "ainda cursando"));
+        
+        alunoSeverino.historico.registraResultado(pp, 60);
+        System.out.println("O aluno " + alunoSeverino.nome + " esta' " + (alunoSeverino.verificaSeFormou() ? "formado!" : "ainda cursando"));
+        alunoSeverino.historico.registraResultado(aed1, 60);       
+        System.out.println("O aluno " + alunoSeverino.nome + " esta' " + (alunoSeverino.verificaSeFormou() ? "formado!" : "ainda cursando"));
+        alunoSeverino.historico.registraResultado(poo1, 60);
+        System.out.println("O aluno " + alunoSeverino.nome + " esta' " + (alunoSeverino.verificaSeFormou() ? "formado!" : "ainda cursando"));
+    }
+    
+}
+
+---------------------------------------------
+ public void imprime_historico ()
+    {
+        System.out.println("Disciplinas: ");
+        listaDisciplinas.forEach((Disciplina d) -> 
+        {
+            d.Status();
+        });
+    }
+
+
+        else for(Disciplina d1 : d.requisitos)
+        {
+            for(DisciplinaM dm : this.dmatriculadas)
+            {
+                System.out.println("DEUU CERTO");
+                if(dm.d.nome.equals(d1.nome))
+                {
+                    return dm.aprovado;
+                }
+            }
+        }

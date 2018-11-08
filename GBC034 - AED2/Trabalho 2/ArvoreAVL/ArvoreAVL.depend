@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1500843782 source:c:\projetos\arvoreavl\avl.c
+	<stdio.h>
+	<stdlib.h>
+	"AVL.h"
+	<string.h>
+
+1500843833 c:\projetos\arvoreavl\avl.h
+
+1500843814 source:c:\projetos\arvoreavl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"AVL.h"
+
+1501114958 source:c:\users\netii\desktop\fdp\arvoreavl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"AVL.h"
+
+1501114935 c:\users\netii\desktop\fdp\arvoreavl\avl.h
+
+1501114901 source:c:\users\netii\desktop\fdp\arvoreavl\avl.c
+	<stdio.h>
+	<stdlib.h>
+	"AVL.h"
+
+1501120555 source:c:\users\paulorenatocamposbar\desktop\arvoreavl\avl.c
+	<stdio.h>
+	<stdlib.h>
+	"AVL.h"
+
+1501121115 c:\users\paulorenatocamposbar\desktop\arvoreavl\avl.h
+
+1501121520 source:c:\users\paulorenatocamposbar\desktop\arvoreavl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"AVL.h"
+
+1501128994 source:c:\users\paulorenatocamposbar\desktop\prova2 aed2\trabalho 2\arvoreavl\avl.c
+	<stdio.h>
+	<stdlib.h>
+	"AVL.h"
+
+1501127584 c:\users\paulorenatocamposbar\desktop\prova2 aed2\trabalho 2\arvoreavl\avl.h
+
+1501128643 source:c:\users\paulorenatocamposbar\desktop\prova2 aed2\trabalho 2\arvoreavl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"AVL.h"
+

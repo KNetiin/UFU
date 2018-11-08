@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1497988333 source:c:\users\netii\documents\codeblocks\grafos3\grafo.c
+	<stdio.h>
+	<stdlib.h>
+	"grafo.h"
+
+1497925569 c:\users\netii\documents\codeblocks\grafos3\grafo.h
+
+1497988356 source:c:\users\netii\documents\codeblocks\grafos3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"grafo.h"
+

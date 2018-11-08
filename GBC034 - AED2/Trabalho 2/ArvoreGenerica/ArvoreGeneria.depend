@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1501113045 source:c:\users\paulorenatocamposbar\desktop\prova2 aed2\arvoregeneria\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arvore.h"
+	"fila.h"
+
+1501113628 source:c:\users\paulorenatocamposbar\desktop\prova2 aed2\arvoregeneria\arvore.c
+	<stdlib.h>
+	<stdio.h>
+	"Arvore.h"
+	"fila.h"
+
+1501109849 c:\users\paulorenatocamposbar\desktop\prova2 aed2\arvoregeneria\arvore.h
+
+1500582661 source:c:\users\paulorenatocamposbar\desktop\prova2 aed2\arvoregeneria\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+
+1500576212 c:\users\paulorenatocamposbar\desktop\prova2 aed2\arvoregeneria\fila.h
+	"Arvore.h"
+
+1500582661 source:c:\users\paulorenatocamposbar\desktop\prova2 aed2\arvoregeneria\fila.c
+	<stdio.h>
+	<stdlib.h>
+	"fila.h"
+

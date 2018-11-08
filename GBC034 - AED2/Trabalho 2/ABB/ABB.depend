@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1501132872 source:c:\users\netii\desktop\fdp\abb\arvabb.c
+	<stdlib.h>
+	<stdio.h>
+	"arvABB.h"
+
+1501130387 c:\users\netii\desktop\fdp\abb\arvabb.h
+
+1501132884 source:c:\users\netii\desktop\fdp\abb\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arvABB.h"
+

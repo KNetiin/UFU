@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1498437264 source:c:\users\paulorenatocamposbar\desktop\trabalhoaed2\grafo.c
+	<stdio.h>
+	<stdlib.h>
+	"grafo.h"
+
+1498436363 c:\users\paulorenatocamposbar\desktop\trabalhoaed2\grafo.h
+
+1498436366 source:c:\users\paulorenatocamposbar\desktop\trabalhoaed2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"grafo.h"
+
+1498501406 source:c:\users\a11611bcc006\desktop\trabalhoaed2\trabalhoaed2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"grafo.h"
+
+1498501406 c:\users\a11611bcc006\desktop\trabalhoaed2\trabalhoaed2\grafo.h
+
+1498502129 source:c:\users\a11611bcc006\desktop\trabalhoaed2\trabalhoaed2\grafo.c
+	<stdio.h>
+	<stdlib.h>
+	"grafo.h"
+
+1498568130 source:c:\users\netii\documents\codeblocks\trabalhoaed2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"grafo.h"
+
+1498569472 c:\users\netii\documents\codeblocks\trabalhoaed2\grafo.h
+
+1498569472 source:c:\users\netii\documents\codeblocks\trabalhoaed2\grafo.c
+	<stdio.h>
+	<stdlib.h>
+	"grafo.h"
+

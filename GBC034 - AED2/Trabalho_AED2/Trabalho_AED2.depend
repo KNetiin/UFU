@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1498081836 source:c:\users\netii\documents\codeblocks\trabalho_aed2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"grafo.h"
+
+1498161223 source:c:\users\netii\documents\codeblocks\trabalho_aed2\grafo.c
+	<stdio.h>
+	<stdlib.h>
+	"grafo.h"
+
+1498159746 c:\users\netii\documents\codeblocks\trabalho_aed2\grafo.h
+

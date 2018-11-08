@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1500752988 source:c:\users\netii\documents\codeblocks\arvore\arvbin.c
+	"arvBin.h"
+	<stdlib.h>
+	<stdio.h>
+
+1500752988 c:\users\netii\documents\codeblocks\arvore\arvbin.h
+
+1500753058 source:c:\users\netii\documents\codeblocks\arvore\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arvBin.h"
+	"arvGen.h"
+
+1500752935 source:c:\users\netii\documents\codeblocks\arvore\arvgen.c
+	<stdlib.h>
+	<stdio.h>
+	"arvGen.h"
+
+1500752843 c:\users\netii\documents\codeblocks\arvore\arvgen.h
+

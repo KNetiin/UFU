@@ -1,0 +1,69 @@
+int sair = 0;
+int auxiliar = 0;
+
+void busca_profundidade(Grafo* grafo, int V, int V2, int metrica, int* visitados, int* caminho)
+{
+    visitados[V] = 1;
+    //printf("%d (%d) ->",V, auxiliar);
+    caminho[auxiliar] = V;
+    auxiliar++;
+    Node* aux = (Node*)malloc(sizeof(Node));
+    aux = grafo->aresta[V];
+    while(aux != NULL && sair != 1)
+    {
+        if(visitados[aux->vertice] == 0)
+            busca_profundidade(grafo,aux->vertice,V2,metrica,visitados,caminho);
+        else
+        {
+            aux=aux->prox;
+            if(aux->vertice == V2)
+            {
+                //auxiliar++;
+                //printf("%d (%d)    ",aux->vertice, auxiliar);
+                caminho[auxiliar] = aux->vertice;
+                sair = 1;
+            }
+        }
+    }
+}
+
+int DFS (Grafo* grafo, int V, int V2, int metrica)
+{
+    if(grafo == NULL)
+    {
+        printf("\n**ERROR** - Grafo inconsistente! (DFS)");
+        return -1;
+    }
+    if(V < 0 || V >= grafo->qv)
+    {
+        printf("\n**ERROR** - Vertice 1 invalido! (DFS)");
+        return -1;
+    }
+    if(V2 < 0 || V2 >= grafo->qv)
+    {
+        printf("\n**ERROR** - Vertice 2 invalido! (DFS)");
+        return -1;
+    }
+
+    int* visitados = (int*) calloc (grafo->qv, sizeof(int));
+    int* caminho = (int*) calloc(grafo->qv, sizeof(int));
+    int i;
+    float distancia = 0;
+
+
+    busca_profundidade(grafo, V, V2, metrica, visitados, caminho);
+    printf("\tCaminho percorrido: ");
+    for(i=0; i<=auxiliar; i++)
+        printf("%d ", caminho[i]);
+    for(i=0; i<=auxiliar-1; i++)
+        distancia += grafo->aresta[caminho[i]]->peso[metrica];
+
+    printf("\n");
+    printf("\tDistancia percorrida: %.2f", distancia);
+    printf("\n\n");
+    auxiliar = 0;
+    sair = 0;
+    free(visitados);
+    free(caminho);
+    return 1;
+}
