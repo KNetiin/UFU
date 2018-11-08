@@ -1,0 +1,5 @@
+Reserva Solicitada - Solicitação antecipada da reserva.
+Reserva Cancelada - Reserva cancelada durante o estado de "Reserva Solicitada".
+Reserva Aberta - Reserva se torna aberta na sua data de início. A partir deste momento a reserva não pode mais ser cancelada.
+Reserva Fechada - Reserva se torna fechada na sua data de fim. Neste momento o valor total da reserva é calculado.
+Reserva Concluída - Reserva passade Fechada para Concluída após o pagamento.
