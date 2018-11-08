@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1480373964 source:c:\users\netii\desktop\trab parte 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Matriz.h"
+
+1480383309 c:\users\netii\desktop\trab parte 1\matriz.h
+
+1480389925 source:c:\users\netii\desktop\trab parte 1\matriz.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Matriz.h"
+

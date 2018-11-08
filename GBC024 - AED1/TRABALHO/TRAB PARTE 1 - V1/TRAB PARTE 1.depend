@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1480445425 source:c:\users\netii\desktop\trab parte 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Matriz.h"
+	"pilha.h"
+
+1480441249 c:\users\netii\desktop\trab parte 1\matriz.h
+
+1480441362 source:c:\users\netii\desktop\trab parte 1\matriz.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"Matriz.h"
+
+1480440078 source:c:\users\netii\desktop\trab parte 1\pilha.c
+	"pilha.h"
+
+1480440299 c:\users\netii\desktop\trab parte 1\pilha.h
+	<stdio.h>
+	<stdlib.h>
+
