@@ -1,0 +1,7 @@
+|exercise28
+SW[0] => n1.IN0
+SW[1] => n1.IN1
+SW[1] => n2.IN0
+LEDG[7] <= LEDG[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

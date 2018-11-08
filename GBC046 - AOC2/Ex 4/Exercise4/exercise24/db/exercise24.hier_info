@@ -1,0 +1,12 @@
+|exercise24
+SW[0] => always1.IN0
+SW[0] => always1.IN0
+SW[0] => always1.IN0
+SW[1] => always1.IN1
+SW[1] => always1.IN1
+SW[1] => always1.IN1
+SW[2] => state~1.DATAIN
+SW[3] => state~3.DATAIN
+LEDG[7] <= LEDG.DB_MAX_OUTPUT_PORT_TYPE
+
+

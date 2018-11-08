@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/netiin/AOC2/Quartus/Exercise4/exercise3/simulation/qsim
+vexercise3
+Z1 !s110 1508267264
+!i10b 1
+!s100 9=eYLn=7WEBXf?BJM7KE^3
+I;aDaoVZ1Q>nIBA:UeLa7n2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1508267263
+8exercise3.vo
+Fexercise3.vo
+L0 32
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1508267264.000000
+!s107 exercise3.vo|
+!s90 -work|work|exercise3.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vexercise3_vlg_vec_tst
+R1
+!i10b 1
+!s100 G7;50;bEJW^FgGTgNcF<]3
+I5I6;Iic4OKoKQHZ2hzK;F1
+R2
+R0
+R3
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7

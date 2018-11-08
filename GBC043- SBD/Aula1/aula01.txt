@@ -1,0 +1,12 @@
+NOTOWN RECORS MINI MUNDO
+
+Músicos - cpf, nome, (morar), (tocar), (interpretar), (produção)
+Endereço - telefone, (morar)
+Instrumento - nome, tom-musical, (tocar)
+ÁlbuM - Título, data, formato, identificador, (pertence), (produção)
+Música - Título, autor, (pertence), (interpretar)
+
+Inferencia impossiveis:
+-chave do intrumento
+-chave da musical
+-tipo de dado do endereço

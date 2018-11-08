@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, /home/netiin/AOC2/Quartus/Exercise4/exercise36/exercise36.sv
+source_file = 1, /home/netiin/AOC2/Quartus/Exercise4/exercise36/db/exercise36.cbx.xml
+design_name = exercise36
+instance = comp, \LEDG[0]~output , LEDG[0]~output, exercise36, 1
+instance = comp, \LEDG[1]~output , LEDG[1]~output, exercise36, 1
+instance = comp, \LEDG[2]~output , LEDG[2]~output, exercise36, 1
+instance = comp, \LEDG[3]~output , LEDG[3]~output, exercise36, 1
+instance = comp, \SW[0]~input , SW[0]~input, exercise36, 1
+instance = comp, \SW[1]~input , SW[1]~input, exercise36, 1
+instance = comp, \SW[2]~input , SW[2]~input, exercise36, 1
+instance = comp, \SW[4]~input , SW[4]~input, exercise36, 1
+instance = comp, \SW[3]~input , SW[3]~input, exercise36, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

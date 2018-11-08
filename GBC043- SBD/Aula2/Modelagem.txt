@@ -1,0 +1,18 @@
+PACIENTES - cpf', nome, endereço, idade, telefoneS(residencial, comercial, celular)
+MEDICOS - crm', nome, especialidade, anos de exp
+EMPRESA FARMACÊUTICA - cnpj, telefone
+MEDICAMENTO - nome'(FRACA), fórmula, 
+FARMACIA - nome', endereço', telefone
+CONSULTA = (Medico + Paciente)
+RECEITA = data, 
+
+
+
+RELACIONAMENTO :
+
+MEDICAMENTO vendido EMPRESA FARMACÊUTICA
+MEDICO(TOTAL) atende(TOTAL) PACIENTE
+FARMACIA vende(preço) MEDICAMENTO
+CONSULTA prescreve RECEITA
+RECEITA(TOTAL) contem MEDICAMENTO
+EMPRESA FARMACÊUTICA contratos(data inicial, data final, texto do contrato, supervisor) Farmácias

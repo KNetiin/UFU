@@ -1,0 +1,34 @@
+|exercise30
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN2
+SW[5] => SW[5].IN2
+LEDG[4] <= lights:lightsfsm.port1
+LEDG[5] <= lights:lightsfsm.port1
+LEDG[6] <= lights:lightsfsm.port1
+LEDG[7] <= lights:lightsfsm.port1
+
+
+|exercise30|mode:modefsm
+SW[0] => nextstate.DATAB
+SW[1] => nextstate.DATAA
+SW[2] => state.ACLR
+SW[3] => state.CLK
+LEDG[7] <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercise30|lights:lightsfsm
+SW[0] => always1.IN0
+SW[1] => always1.IN1
+SW[2] => Selector0.IN3
+SW[2] => nextstate.S1.DATAB
+SW[3] => state~3.DATAIN
+SW[4] => state~1.DATAIN
+LEDG[4] <= LEDG[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[5] <= LEDG.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[6] <= LEDG[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDG[7] <= LEDG.DB_MAX_OUTPUT_PORT_TYPE
+
+

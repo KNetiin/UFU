@@ -1,0 +1,61 @@
+module exercise30(input clk, reset, p, r, ta, tb,
+            output [1:0] la, lb);
+  mode modefsm(clk, reset, p, r, m);
+  lights lightsfsm(clk, reset, ta, tb, m, la, lb);
+endmodule
+
+module lights(input clk, reset, ta, tb, m,
+              output reg [1:0] la, lb);
+  reg  [1:0] state, nextstate;
+  parameter S0 = 2'b00;
+  parameter S1 = 2'b01;
+  parameter S2 = 2'b10;
+  parameter S3 = 2'b11;
+  parameter green  = 2'b00;
+  parameter yellow = 2'b01;
+  parameter red    = 2'b10;
+  // State Register
+  always @(posedge clk, posedge reset)
+    if (reset) state <= S0;
+    else       state <= nextstate;
+  // Next State Logic
+  always @(*)
+    case (state)
+      S0: if (ta)     nextstate = S0;
+          else        nextstate = S1;
+      S1:             nextstate = S2;
+      S2: if (tb | m) nextstate = S2;
+          else        nextstate = S3;
+      S3:             nextstate = S0;
+    endcase
+  // Output Logic
+  always @ (*)
+    case (state)
+      S0: {la, lb} = {green, red};
+      S1: {la, lb} = {yellow, red};
+      S2: {la, lb} = {red, green};
+      S3: {la, lb} = {red, yellow};
+    endcase
+endmodule
+
+module mode(input clk, reset, p, r, 
+                  output m);
+  reg state, nextstate;
+  parameter S0 = 1'b0;
+  parameter S1 = 1'b1;
+  // State Register
+  always @(posedge clk, posedge reset)
+    if (reset) state <= S0;
+    else       state <= nextstate;
+  // Next State Logic
+  always @ (*)
+    case (state)
+      S0: if (p) nextstate = S1;
+          else   nextstate = S0;
+      S1: if (r) nextstate = S0;
+          else   nextstate = S1;
+    endcase
+  // Output Logic
+  assign m = state;
+endmodule
+

@@ -1,0 +1,22 @@
+|exercise36
+SW[0] => nextstate.DATAA
+SW[0] => nextstate.DATAA
+SW[1] => nextstate.OUTPUTSELECT
+SW[1] => nextstate.OUTPUTSELECT
+SW[1] => nextstate.DATAA
+SW[2] => nextstate.OUTPUTSELECT
+SW[2] => nextstate.OUTPUTSELECT
+SW[2] => nextstate.OUTPUTSELECT
+SW[2] => Selector1.IN3
+SW[2] => Selector2.IN4
+SW[2] => Selector5.IN4
+SW[2] => Selector6.IN4
+SW[2] => Selector3.IN4
+SW[3] => state~3.DATAIN
+SW[4] => state~1.DATAIN
+LEDG[0] <= <GND>
+LEDG[1] <= <GND>
+LEDG[2] <= <GND>
+LEDG[3] <= <GND>
+
+

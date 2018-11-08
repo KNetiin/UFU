@@ -1,0 +1,211 @@
+$comment
+	File created using the following command:
+		vcd file exercise3.msim.vcd -direction
+$end
+$date
+	Tue Oct 17 17:07:45 2017
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module exercise3_vlg_vec_tst $end
+$var reg 4 ! SW [3:0] $end
+$var wire 1 " LEDG [7] $end
+
+$scope module i1 $end
+$var wire 1 # gnd $end
+$var wire 1 $ vcc $end
+$var wire 1 % unknown $end
+$var tri1 1 & devclrn $end
+$var tri1 1 ' devpor $end
+$var tri1 1 ( devoe $end
+$var wire 1 ) LEDG[7]~output_o $end
+$var wire 1 * SW[0]~input_o $end
+$var wire 1 + SW[1]~input_o $end
+$var wire 1 , SW[2]~input_o $end
+$var wire 1 - SW[3]~input_o $end
+$var wire 1 . WideXor0~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+0#
+1$
+x%
+1&
+1'
+1(
+0)
+0*
+0+
+0,
+0-
+0.
+$end
+#40000
+b1 !
+1*
+1.
+1)
+1"
+#80000
+b11 !
+b10 !
+0*
+1+
+#120000
+b11 !
+1*
+0.
+0)
+0"
+#160000
+b111 !
+b101 !
+b100 !
+0*
+0+
+1,
+1.
+1)
+1"
+#200000
+b101 !
+1*
+0.
+0)
+0"
+#240000
+b111 !
+b110 !
+0*
+1+
+#280000
+b111 !
+1*
+1.
+1)
+1"
+#320000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0*
+0+
+0,
+1-
+#360000
+b1001 !
+1*
+0.
+0)
+0"
+#400000
+b1011 !
+b1010 !
+0*
+1+
+#440000
+b1011 !
+1*
+1.
+1)
+1"
+#480000
+b1111 !
+b1101 !
+b1100 !
+0*
+0+
+1,
+0.
+0)
+0"
+#520000
+b1101 !
+1*
+1.
+1)
+1"
+#560000
+b1111 !
+b1110 !
+0*
+1+
+#600000
+b1111 !
+1*
+0.
+0)
+0"
+#640000
+b111 !
+b11 !
+b1 !
+b0 !
+0*
+0+
+0,
+0-
+#680000
+b1 !
+1*
+1.
+1)
+1"
+#720000
+b11 !
+b10 !
+0*
+1+
+#760000
+b11 !
+1*
+0.
+0)
+0"
+#800000
+b111 !
+b101 !
+b100 !
+0*
+0+
+1,
+1.
+1)
+1"
+#840000
+b101 !
+1*
+0.
+0)
+0"
+#880000
+b111 !
+b110 !
+0*
+1+
+#920000
+b111 !
+1*
+1.
+1)
+1"
+#960000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0*
+0+
+0,
+1-
+#1000000

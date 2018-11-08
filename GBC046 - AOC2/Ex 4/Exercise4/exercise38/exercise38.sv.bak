@@ -1,0 +1,42 @@
+module exercise39(
+		input logic [2:0] SW,
+      output logic [2:0] LEDG);
+/*			clk = SW[2]
+				reset = SW[1]
+				up = SW[0]	*/
+  logic [2:0] state, nextstate;
+  parameter S0 = 3'b000;
+  parameter S1 = 3'b001;
+  parameter S2 = 3'b011;
+  parameter S3 = 3'b010;
+  parameter S4 = 3'b110;
+  parameter S5 = 3'b111;
+  parameter S6 = 3'b101;
+  parameter S7 = 3'b100;
+  // State Register
+  always @(posedge SW[2], posedge SW[1])
+    if (SW[2]) state <= S0;
+    else       state <= nextstate;
+  // Next State Logic
+  always @ (*)
+    case (state)
+      S0: if (SW[1]) 	nextstate = S1;
+				else 			   nextstate = S7;
+      S1: if (SW[1]) 	nextstate = S2;
+				else    			nextstate = S0;
+      S2: if (SW[1]) 	nextstate = S3;
+				else    			nextstate = S1;
+      S3: if (SW[1]) 	nextstate = S4;
+				else   				nextstate = S2;
+      S4: if (SW[1]) 	nextstate = S5;
+				else    			nextstate = S3;
+      S5: if (SW[1]) 	nextstate = S6;
+				else    			nextstate = S4;
+      S6: if (SW[1]) 	nextstate = S7;
+				else    			nextstate = S5;
+      S7: if (SW[1])	nextstate = S0;
+				else				   nextstate = S6;
+    endcase
+  // Output Logic
+  assign LEDG = state;
+endmodule

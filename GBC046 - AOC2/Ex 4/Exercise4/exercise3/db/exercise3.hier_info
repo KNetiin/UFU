@@ -1,0 +1,8 @@
+|exercise3
+SW[0] => WideXor0.IN0
+SW[1] => WideXor0.IN1
+SW[2] => WideXor0.IN2
+SW[3] => WideXor0.IN3
+LEDG[7] <= WideXor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
