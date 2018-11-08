@@ -1,0 +1,540 @@
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (1, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.33
+   average holding level .... =  35.47
+   average shortage level ... =   1.51
+   Dependent Cost ... = 2273.71
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (2, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.33
+   average holding level .... =  35.18
+   average shortage level ... =   1.55
+   Dependent Cost ... = 2291.56
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (3, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.33
+   average holding level .... =  35.60
+   average shortage level ... =   1.55
+   Dependent Cost ... = 2302.11
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (4, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.33
+   average holding level .... =  35.60
+   average shortage level ... =   1.55
+   Dependent Cost ... = 2302.11
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (5, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.34
+   average holding level .... =  36.92
+   average shortage level ... =   1.31
+   Dependent Cost ... = 2180.30
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (6, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.36
+   average holding level .... =  36.10
+   average shortage level ... =   0.86
+   Dependent Cost ... = 1863.56
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (7, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.36
+   average holding level .... =  36.37
+   average shortage level ... =   0.85
+   Dependent Cost ... = 1861.34
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (8, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.36
+   average holding level .... =  36.99
+   average shortage level ... =   0.87
+   Dependent Cost ... = 1890.99
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (9, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.36
+   average holding level .... =  38.00
+   average shortage level ... =   0.92
+   Dependent Cost ... = 1950.55
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (10, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.36
+   average holding level .... =  38.46
+   average shortage level ... =   0.85
+   Dependent Cost ... = 1916.02
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (11, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.36
+   average holding level .... =  38.89
+   average shortage level ... =   0.85
+   Dependent Cost ... = 1930.10
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (12, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.36
+   average holding level .... =  38.89
+   average shortage level ... =   0.85
+   Dependent Cost ... = 1930.10
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (13, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.36
+   average holding level .... =  39.24
+   average shortage level ... =   0.86
+   Dependent Cost ... = 1943.40
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (14, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.37
+   average holding level .... =  40.14
+   average shortage level ... =   0.70
+   Dependent Cost ... = 1861.69
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (15, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.39
+   average holding level .... =  41.38
+   average shortage level ... =   0.55
+   Dependent Cost ... = 1806.34
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (16, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.40
+   average holding level .... =  42.28
+   average shortage level ... =   0.37
+   Dependent Cost ... = 1716.44
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (17, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.40
+   average holding level .... =  42.71
+   average shortage level ... =   0.38
+   Dependent Cost ... = 1734.38
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (18, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.40
+   average holding level .... =  42.71
+   average shortage level ... =   0.38
+   Dependent Cost ... = 1734.38
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (19, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.40
+   average holding level .... =  42.71
+   average shortage level ... =   0.38
+   Dependent Cost ... = 1734.38
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (20, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.41
+   average holding level .... =  43.72
+   average shortage level ... =   0.21
+   Dependent Cost ... = 1650.94
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (21, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.41
+   average holding level .... =  44.38
+   average shortage level ... =   0.17
+   Dependent Cost ... = 1637.00
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (22, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.42
+   average holding level .... =  44.97
+   average shortage level ... =   0.20
+   Dependent Cost ... = 1686.86
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (23, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.42
+   average holding level .... =  44.97
+   average shortage level ... =   0.20
+   Dependent Cost ... = 1686.86
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (24, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.42
+   average holding level .... =  45.16
+   average shortage level ... =   0.16
+   Dependent Cost ... = 1660.97
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (25, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.42
+   average holding level .... =  45.16
+   average shortage level ... =   0.16
+   Dependent Cost ... = 1660.97
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (26, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.43
+   average holding level .... =  46.11
+   average shortage level ... =   0.12
+   Dependent Cost ... = 1665.20
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (27, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.43
+   average holding level .... =  46.11
+   average shortage level ... =   0.12
+   Dependent Cost ... = 1665.20
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (28, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.44
+   average holding level .... =  46.15
+   average shortage level ... =   0.12
+   Dependent Cost ... = 1675.67
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (29, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.44
+   average holding level .... =  46.15
+   average shortage level ... =   0.12
+   Dependent Cost ... = 1675.67
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (30, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.44
+   average holding level .... =  46.15
+   average shortage level ... =   0.12
+   Dependent Cost ... = 1675.67
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (31, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.46
+   average holding level .... =  47.31
+   average shortage level ... =   0.07
+   Dependent Cost ... = 1689.75
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (32, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.47
+   average holding level .... =  48.03
+   average shortage level ... =   0.03
+   Dependent Cost ... = 1694.90
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (33, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.47
+   average holding level .... =  47.92
+   average shortage level ... =   0.03
+   Dependent Cost ... = 1691.80
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (34, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.47
+   average holding level .... =  48.33
+   average shortage level ... =   0.02
+   Dependent Cost ... = 1693.87
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (35, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.47
+   average holding level .... =  48.46
+   average shortage level ... =   0.02
+   Dependent Cost ... = 1697.42
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (36, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.49
+   average holding level .... =  49.28
+   average shortage level ... =   0.01
+   Dependent Cost ... = 1727.15
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (37, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.50
+   average holding level .... =  49.61
+   average shortage level ... =   0.00
+   Dependent Cost ... = 1740.95
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (38, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.52
+   average holding level .... =  50.32
+   average shortage level ... =   0.01
+   Dependent Cost ... = 1782.64
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (39, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.54
+   average holding level .... =  51.16
+   average shortage level ... =   0.01
+   Dependent Cost ... = 1823.28
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (40, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.56
+   average holding level .... =  51.70
+   average shortage level ... =   0.01
+   Dependent Cost ... = 1856.69
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (41, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.57
+   average holding level .... =  52.14
+   average shortage level ... =   0.01
+   Dependent Cost ... = 1877.69
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (42, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.58
+   average holding level .... =  52.53
+   average shortage level ... =   0.00
+   Dependent Cost ... = 1893.74
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (43, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.58
+   average holding level .... =  52.92
+   average shortage level ... =   0.00
+   Dependent Cost ... = 1903.49
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (44, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.59
+   average holding level .... =  53.36
+   average shortage level ... =   0.00
+   Dependent Cost ... = 1924.49
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (45, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.61
+   average holding level .... =  54.33
+   average shortage level ... =   0.00
+   Dependent Cost ... = 1968.42
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (46, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.62
+   average holding level .... =  54.77
+   average shortage level ... =   0.00
+   Dependent Cost ... = 1989.42
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (47, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.63
+   average holding level .... =  55.11
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2007.92
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (48, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.66
+   average holding level .... =  56.45
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2071.13
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (49, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.66
+   average holding level .... =  56.45
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2071.13
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (50, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.67
+   average holding level .... =  56.88
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2092.13
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (51, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.68
+   average holding level .... =  57.37
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2114.13
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (52, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.69
+   average holding level .... =  57.84
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2136.13
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (53, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.71
+   average holding level .... =  58.41
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2170.13
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (54, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.74
+   average holding level .... =  59.22
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2220.38
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (55, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.78
+   average holding level .... =  60.26
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2286.38
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (56, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.78
+   average holding level .... =  60.26
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2286.38
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (57, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.79
+   average holding level .... =  60.63
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2305.63
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (58, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.82
+   average holding level .... =  61.44
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2355.88
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (59, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.82
+   average holding level .... =  61.44
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2355.88
+
+for 100 time intervals with an average demand of  31.35
+and policy parameters (s, S) = (60, 80)
+
+   average order ............ =  31.35
+   setup frequency .......... =   0.83
+   average holding level .... =  61.73
+   average shortage level ... =   0.00
+   Dependent Cost ... = 2373.38
