@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Movie</string>
+
+    <string name="nome">Nome</string>
+
+    <string name="title_activity_tela_principal">TelaPrincipal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_tela_filme">TelaFilme</string>
+
+    <string name="um">
+        A saga da família Skywalker continua quando os heróis de Despertar da Força se unem a
+        lendas da galáxia em uma aventura épica que desvenda antigos mistérios da Força e
+        revelações surpreendentes do passado.
+    </string>
+
+    <string name="tres">
+        Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman (Henry Cavill), Bruce Wayne (Ben Affleck) convoca sua nova aliada Diana Prince (Gal Gadot) para o combate contra um inimigo ainda maior, recém-despertado. Juntos, Batman e Mulher-Maravilha buscam e recrutam com agilidade um time de meta-humanos, mas mesmo com a formação da liga de heróis sem precedentes - Batman, Mulher-Maraviha, Aquaman (Jason Momoa), Cyborg (Ray Fisher) e The Flash (Ezra Miller), poderá ser tarde demais para salvar o planeta de um catastrófico ataque.
+    </string>
+
+    <string name="seis">
+        Auggie Pullman (Jacob Tremblay) é um garoto que nasceu com uma deformação facial. Pela
+        primeira vez, ele irá frequentar uma escola regular, como qualquer outra criança. No
+        quinto ano, ele irá precisar se esforçar para conseguir se encaixar em sua nova realidade.
+    </string>
+
+    <string name="cinco">
+        Na mais nova animação da Sony Pictures Animation, A Estrela, um pequeno e destemido burro
+        chamado Bo anseia por uma vida que vá além da cota diária de trabalho no moinho da vila.
+        Um dia ele encontra coragem para fugir, e finalmente viver as aventuras que tanto sonhou.
+        Em sua jornada, ele logo se alia à Ruth, uma ovelha adorável que se perdeu de seu bando;
+        e à Dave, um pombo com aspirações grandiosas. E junto com 3 sábios camelos e outros animais
+        excêntricos de um estábulo, Bo e seus novos amigos seguem A Estrela e se tornam heróis
+        improváveis na maior história já contada – o primeiro Natal.
+    </string>
+
+    <string name="quatro">
+        Várias pessoas estão fazendo uma viagem longa em um luxuoso trem. A paz, entretanto, é
+        perturbada por um acontecimento sinistro: um terrível assassinato. À bordo da composição
+        está ninguém menos que o mundialmente reconhecido detetive Hercule Poirot (Kenneth Branagh)
+        que se voluntaria para iniciar uma varredura no local, ouvindo testemunhas e possíveis
+        suspeitos para descobrir o que de fato aconteceu.
+    </string>
+
+    <string name="sinopseth">
+        Thor está aprisionado do outro lado do universo sem seu poderoso martelo e precisa correr
+        contra o tempo e para evitar o Ragnarok — a destruição de sua terra natal e o fim da
+        civilização de Asgard pelas mãos de uma nova e poderosa ameaça, a impiedosa Hela. Mas antes
+        ele deve sobreviver a um duelo mortal numa arena de gladiadores onde seu adversário é um
+        antigo aliado e colega Vingador - o Incrível Hulk.
+    </string>
+
+    <string name="sete">
+        Corpos estão surgindo pela cidade, cada um encontrando um desaparecimento horrível.
+        Enquanto a investigação continua, as evidências apontam para um homem: John Kramer.
+        Mas como isso é possível? O homem conhecido como Jigsaw está morto há mais de uma década.
+        Será que algum aprendiz assumiu o manto de Jigsaw, talvez até mesmo alguém de dentro da
+        investigação?
+    </string>
+</resources>
