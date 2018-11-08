@@ -1,0 +1,12 @@
+Estamos utilizando o NetBeans IDE 8.2 e seu banco de dados;
+1- Entrar no NetBeans;
+2- Na aba de "Serviços", abrir "Bancos de Dados", clicar com o botão direito em "Java DB", "Propriedades...".
+3- No campo "Instalação do Java BD:" deve ter "...\glassfish5\javadb" para evitar o erro de inicialização do Java DB;
+	3.1- Caso não tenha instalado, basta seguir o link e baixar a versão "GlassFish 5.0 - Full Platform", extrair e
+	     selecionar o lugar extraído no campo.
+	     -----"https://javaee.github.io/glassfish/download"-----
+4- No campo "Localização do Banco de Dados:" selecionar a pasta que se encontra a pasta do banco de dados, no nosso caso
+   "hotel".
+5- Assim que seguir os passos acima, o banco de dados já está configurado. Caso seja necessário o Usuário é "root" e sua
+   senha é "toor".
+6- Abrir normalmente o projeto no NetBeans.
